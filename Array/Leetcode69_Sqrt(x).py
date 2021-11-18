@@ -7,8 +7,8 @@ class Solution(object):
         left = 0
         right = x
 
-        if x == 0:
-            return 0
+        if x <= 1:
+            return x
 
         while left < right:
             mid = (left+right)//2
