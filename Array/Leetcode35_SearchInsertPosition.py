@@ -6,32 +6,24 @@ class Solution(object):
         :rtype: int
         """
         left = 0
-        right = len(nums) - 1
+        right = len(nums)
 
-
-        while left <= right:
-            if target < nums[left]:
-                return left
-
-            if target > nums[right]:
-                return right+1
-
+        while left < right:
             mid = (left + right) // 2
-            print(left, right, mid)
             if target == nums[mid]:
                 return mid
             elif target < nums[mid]:
-                right = mid-1
-                print(left, right)
+                right = mid
             elif target > nums[mid]:
                 left = mid+1
-                print(left, right)
+
+        return right
 
 
 
 sol = Solution()
 
-# Test Case1, the answer should be 0
+# Test Case1, the answer should be 1
 nums1 = [1, 3, 5, 7]
 target1 = 2
 
@@ -45,6 +37,7 @@ target2 = 7
 answer2 = sol.searchInsert(nums2, target2)
 print(answer2)
 
+# Test Case2, the answer should be 0
 nums3 = [1]
 target3 = 1
 
