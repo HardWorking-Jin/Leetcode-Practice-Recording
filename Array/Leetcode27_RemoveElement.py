@@ -5,25 +5,15 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        nums.sort()
         length = len(nums)
-        k = length
+        slowPointer = 0
         
-        for i in range(length):
-            if nums[i] == val:
-                for j in range(i, length):
-                    if nums[j] > val:
-                        temp = nums[j]
-                        nums[j] = nums[i]
-                        nums[i] = temp
-                        
-        for n in range(length):
-            if nums[n] == val:
-                nums[n] = '_'
-                k = k-1
-                
-                    
-        
+        for fastPointer in range(length):
+            if nums[fastPointer] != val:
+                nums[slowPointer] = nums[fastPointer]
+                slowPointer = slowPointer+1
+
+        k = slowPointer                   
         return k, nums
 
 
