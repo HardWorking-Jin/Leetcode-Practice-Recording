@@ -7,4 +7,6 @@ This repo is a personal recording of practicing LeetCode
     * 69  &nbsp; Sqrt(x)
     * 367 Valid Perfect Square
 2. Two Pointers
-    * 27  Remove Element
+    * 27  &nbsp; Remove Element
+    * 283 Move Zero
+    * 844 Backspace String Compare (prefer Stack)
