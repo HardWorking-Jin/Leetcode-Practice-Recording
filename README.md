@@ -9,4 +9,4 @@ This repo is a personal recording of practicing LeetCode
 2. Two Pointers
     * 27  &nbsp; Remove Element
     * 283 Move Zero
-    * 844 Backspace String Compare (prefer Stack)
+    * 844 Backspace String Compare (prefer to solve using Stack)
