@@ -4,3 +4,4 @@ This repo is a personal recording of practicing LeetCode
 * 704 Binary Search
 * 35 Search Insert Position
 * 69 Sqrt(x)
+* 367 Valid Perfect Square
