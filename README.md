@@ -6,3 +6,5 @@ This repo is a personal recording of practicing LeetCode
     * 35 Search Insert Position
     * 69 Sqrt(x)
     * 367 Valid Perfect Square
+2. Two Pointer
+    * 27 Remove Element
