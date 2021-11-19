@@ -5,10 +5,7 @@ class Solution(object):
         :rtype: int
         """
         left = 0
-        right = x
-
-        if x <= 1:
-            return x
+        right = x+1
 
         while left < right:
             mid = (left+right)//2
