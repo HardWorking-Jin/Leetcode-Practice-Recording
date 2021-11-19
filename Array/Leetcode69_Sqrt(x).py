@@ -19,22 +19,22 @@ class Solution(object):
 
 sol = Solution()
 
-# answer should be 1
+# Test Case1, answer should be 1
 x1 = 1
 answer1 = sol.mySqrt(x1)
 print(answer1)
 
-# answer should be 2
+# Test Case2, answer should be 2
 x2 = 5
 answer2 = sol.mySqrt(x2)
 print(answer2)
 
-# answer should be 3
+# Test Case3, answer should be 3
 x3 = 11
 answer3 = sol.mySqrt(x3)
 print(answer3)
 
-# answer should be 0
+# Test Case4, answer should be 0
 x4 = 0
 answer4 = sol.mySqrt(x4)
 print(answer4)
