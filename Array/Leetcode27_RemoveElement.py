@@ -10,9 +10,10 @@ class Solution(object):
         
         for fastPointer in range(length):
             if nums[fastPointer] != val:
-                nums[slowPointer] = nums[fastPointer]
+                temp = nums[fastPointer]
+                nums[fastPointer] = nums[slowPointer]
+                nums[slowPointer] = temp
                 slowPointer = slowPointer+1
-
         k = slowPointer                   
         return k, nums
 
