@@ -37,7 +37,7 @@ target2 = 7
 answer2 = sol.searchInsert(nums2, target2)
 print(answer2)
 
-# Test Case2, the answer should be 0
+# Test Case3, the answer should be 0
 nums3 = [1]
 target3 = 1
 
