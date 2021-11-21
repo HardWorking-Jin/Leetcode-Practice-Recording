@@ -14,4 +14,4 @@ This repo is a personal recording of practicing LeetCode
 3. Slidig Window
    * 209 Minimum Size Subarray Sum
    * 904 Fruit into Baskets (*Hash map for counting elements*)
-   * 76  &nbsp; Minimum Window Substring (*Hash Map for counting elements*) <font color=#FF0000>Hard</font>
+   * 76  &nbsp; Minimum Window Substring (*Hash Map for counting elements*)
