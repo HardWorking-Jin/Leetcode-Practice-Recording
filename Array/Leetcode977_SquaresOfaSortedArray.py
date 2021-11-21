@@ -10,7 +10,7 @@ class Solution(object):
         cur = len(nums)-1
         ans = [0]*len(nums)
 
-        while leftPointer < rightPointer:
+        while leftPointer <= rightPointer:
             if abs(nums[leftPointer]) > abs(nums[rightPointer]):
                 ans[cur] = nums[leftPointer]**2
                 leftPointer = leftPointer+1
@@ -19,7 +19,6 @@ class Solution(object):
                 rightPointer = rightPointer-1
             cur = cur-1
 
-        
         return ans
 
 sol = Solution()
