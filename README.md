@@ -13,4 +13,5 @@ This repo is a personal recording of practicing LeetCode
    * 977 Squared of A Sorted Array (*left pointer & right pointer*)
 3. Slidig Window
    * 209 Minimum Size Subarray Sum
-   * 904 Fruit into Baskets (*Hash map and sliding window*)
+   * 904 Fruit into Baskets (*Hash map for counting elements*)
+   * 76  &nbsp; Minimum Window Substring (*Hash Map for counting elements*) <font color=#FF0000>Hard</font>
